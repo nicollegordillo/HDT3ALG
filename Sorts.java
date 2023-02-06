@@ -9,7 +9,8 @@ import java.util.Random;
 
 public class Sorts{
     
-    private ArrayList<String> NumerosAl= new ArrayList<>();
+    
+    private Integer[] NumerosAl;
 
     public void generador(int n){
         Random ran = new Random();
@@ -30,7 +31,7 @@ public class Sorts{
 
 
     }
-    public void lector(){
+    public Integer[] lector(){
         BufferedReader reader;
         String line;
         int noOfLines=0;
@@ -42,14 +43,16 @@ public class Sorts{
             reader = new BufferedReader(new FileReader("Numeros.txt"));
             for(int i=0; i<noOfLines;i++){
                 line = reader.readLine();
-                NumerosAl.add(line);
+                NumerosAl[i]=(Integer.valueOf(line));
     
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return NumerosAl;
        
     }
+    
     
     
 }

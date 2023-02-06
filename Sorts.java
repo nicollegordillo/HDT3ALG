@@ -18,7 +18,7 @@ public class Sorts{
         BufferedWriter writer;
         try {
             writer = new BufferedWriter(new FileWriter("Numeros.txt"));
-            for (int i = 1; i < n; i++) {
+            for (int i = 1; i <= n; i++) {
                 number = ran.nextInt(3000) + 1;
                 writer.write(Integer.toString(number));
                 writer.newLine();

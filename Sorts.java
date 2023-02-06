@@ -40,6 +40,7 @@ public class Sorts{
             while (reader.readLine() != null) {
                 noOfLines++;
             }
+            NumerosAl = new Integer[noOfLines];
             reader = new BufferedReader(new FileReader("Numeros.txt"));
             for(int i=0; i<noOfLines;i++){
                 line = reader.readLine();

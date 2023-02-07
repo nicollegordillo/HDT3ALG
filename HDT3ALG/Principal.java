@@ -8,6 +8,8 @@ public class Principal {
         QuickSort Quick = new QuickSort<>();
         MergeSort merge = new MergeSort<>();
         gnome gnome= new gnome<>();
+        RadixSort radix = new RadixSort<>();
+        InsertionSort Insertion = new InsertionSort<>();
         Boolean continuar=true;
         int op2=0;
         int op3=0;
@@ -41,9 +43,11 @@ public class Principal {
                     
                 }
                 else if(op2==4){
+                    radix.quickSort(arreglo, new ComparadorEnteros<Integer>());
                     
                 }
                 else if(op2==5){
+                    Insertion.quickSort(arreglo, new ComparadorEnteros<Integer>());
                     
                 }
                 System.out.println("Arreglo arreglado");

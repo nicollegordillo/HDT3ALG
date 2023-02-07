@@ -1,3 +1,5 @@
+package HDT3ALG;
+
 import java.util.Comparator;
 
 public class QuickSort<T> {

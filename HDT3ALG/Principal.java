@@ -7,6 +7,7 @@ public class Principal {
         Sorts miSort = new Sorts();
         QuickSort Quick = new QuickSort<>();
         MergeSort merge = new MergeSort<>();
+        gnome gnome= new gnome<>();
         Boolean continuar=true;
         int op2=0;
         int op3=0;
@@ -29,7 +30,7 @@ public class Principal {
                 op2=teclado.nextInt();
                 teclado.nextLine();
                 if(op2==1){
-    
+                    gnome.Gnome(arreglo,new ComparadorEnteros<Integer>());
                 }
                 else if(op2==2){
                     merge.mergeSort(arreglo, 0, miSort.lector().length-1,new ComparadorEnteros<Integer>());

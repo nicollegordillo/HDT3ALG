@@ -20,7 +20,6 @@ public class RadixSort<T>{
             }
             miarray=secondary;//secondary se pasa a arreglo para que al evaluarlo lo haga en el ordenado por unidades
             }
-            System.out.println("El arreglo ordenado por el metodo Radix es: ");
             showArray(miarray);
 
         }

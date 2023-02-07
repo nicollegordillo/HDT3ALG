@@ -1,7 +1,7 @@
 import java.util.Comparator;
 
 public class InsertionSort<T> {
-    public void quickSort(int[] miarray, Comparator<T> myCompare) {
+    public void quickSort(Integer[] miarray, Comparator<T> myCompare) {
         int auxiliar;
         int counter1;
         int counter2;
@@ -13,4 +13,5 @@ public class InsertionSort<T> {
             }
         }
 }
+    
 }

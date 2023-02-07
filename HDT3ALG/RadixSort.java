@@ -1,10 +1,10 @@
 import java.util.Comparator;
 
-public class RadixSort<T>{
-    public void quickSort(int[] miarray, Comparator<T> myCompare) {
+public class RadixSort<T> {
+    public void quickSort(Integer[] miarray, Comparator<T> myCompare) {
         int x, i, j;
         for (x=Integer.SIZE-1;x>=0;x++) {
-            int secondary[] = new int[miarray.length]; //secondary nos ayuda a mover los digitos
+            Integer secondary[] = new Integer[miarray.length]; //secondary nos ayuda a mover los digitos
             j=0; // contador
             for(i=0;i<miarray.length;i++) {
                 boolean move = miarray[i] << x >= 0;
@@ -24,11 +24,12 @@ public class RadixSort<T>{
 
         }
     
-    public static void showArray(int[] miarray){
+    public static void showArray(Integer[] miarray){
         System.out.println("Array [ ");
         for (int i = 0; i<miarray.length; i++){
             System.out.print(miarray[i] + " ");
         }
         System.out.println("]");
     }
+    
 }

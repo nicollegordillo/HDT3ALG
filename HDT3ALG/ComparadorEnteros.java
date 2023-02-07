@@ -1,5 +1,3 @@
-package HDT3ALG;
-
 import java.util.Comparator;
 
 /**

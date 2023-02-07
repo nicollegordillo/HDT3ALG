@@ -1,3 +1,7 @@
+/**
+ * It takes an array of objects, a left index, a right index, and a comparator, and sorts the array
+ * using the merge sort algorithm
+ */
 import java.util.Comparator;
 
 public class MergeSort<T> {

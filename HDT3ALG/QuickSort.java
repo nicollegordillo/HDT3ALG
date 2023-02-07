@@ -1,3 +1,6 @@
+/**
+ * It's a generic class that implements the QuickSort algorithm
+ */
 import java.util.Comparator;
 
 public class QuickSort<T> {

@@ -1,3 +1,7 @@
+/**
+ * It generates a random number and writes it to a file, then reads the file and stores the numbers in
+ * an array
+ */
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileNotFoundException;

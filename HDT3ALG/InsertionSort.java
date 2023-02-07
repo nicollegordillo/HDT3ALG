@@ -3,6 +3,9 @@
  *
  */
 
+/**
+ * It takes an array of integers and sorts them in ascending order
+ */
 public class InsertionSort{
     
 	public void quicksort(Integer[] numeros){

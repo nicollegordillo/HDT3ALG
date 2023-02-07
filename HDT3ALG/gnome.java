@@ -1,3 +1,6 @@
+/**
+ * This class implements the Gnome sort algorithm
+ */
 import java.util.Comparator;
 
 /**

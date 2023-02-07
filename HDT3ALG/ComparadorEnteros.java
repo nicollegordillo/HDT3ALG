@@ -1,3 +1,6 @@
+/**
+ * It's a class that implements the Comparator interface and compares two objects of type T
+ */
 import java.util.Comparator;
 
 /**

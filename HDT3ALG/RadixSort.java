@@ -1,3 +1,7 @@
+/**
+ * The radix sort algorithm is a sorting algorithm that sorts data with integer keys by grouping keys
+ * by the individual digits which share the same significant position and value
+ */
 import java.io.*;
 import java.util.*;
 

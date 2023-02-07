@@ -1,5 +1,11 @@
 import java.util.Comparator;
 
+/**
+ * @author Paula Rebeca
+ *
+ */
+
+
 public class gnome<T> {
     public void Gnome(T[] miarray, Comparator<T> myCompare){
         int i=0;

@@ -1,27 +1,23 @@
-package HDT3ALG; 
-/*
- * Se utilizo código de referencia de https://www.youtube.com/watch?v=tsmIz3_XPYE
- */
-public class gnome {
+import java.util.Comparator;
 
-    public static void Gnome(NumerosAl[] array ){
-        for (int i = 1; i< array.length;) {
-        if (array[i-1]<=array[1]) {
-            i++;
-        } else {
-            int temp;
-            temp = array[i-1];
-            array [i-1]=array [i]; 
-            array[i]= temp;
-            i--;
+public class gnome<T> {
+    public void Gnome(T[] miarray, Comparator<T> myCompare){
+        int i=0;
+        while ( i< miarray.length-1) {
+            if (i==0){
+                i++;
+            }
+            if (Integer.valueOf(miarray[i-1].toString())<=Integer.valueOf(miarray[i].toString())) {
+                i++;
+            } else {
+                T temp;
+                temp = miarray[i];
+                miarray[i]=miarray[i-1]; 
+                miarray[i-1]= temp;
+                i--;
+            }
+            
         }
-        if (i==0){
-            i=1;
-        }
-    }}}
-
-
-
-        
-                    
-        
+   }
+    
+}

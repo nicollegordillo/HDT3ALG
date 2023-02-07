@@ -36,7 +36,7 @@ public class Sorts{
         String line;
         int noOfLines=0;
 		try {
-            reader = new BufferedReader(new FileReader("numeross.txt"));
+            reader = new BufferedReader(new FileReader("Numeros.txt"));
             while (reader.readLine() != null) {
                 noOfLines++;
             }

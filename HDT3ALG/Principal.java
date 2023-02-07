@@ -1,6 +1,3 @@
-/**
- * A class that generates random numbers and then sorts them using different sorting algorithms.
- */
 import java.util.Scanner;
 
 public class Principal {
